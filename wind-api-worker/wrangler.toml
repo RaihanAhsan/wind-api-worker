@@ -1,0 +1,10 @@
+name = "wind-api"
+main = "src/index.ts"
+compatibility_date = "2024-10-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Database D1 — ID akan diisi di STEP 1.7
+[[d1_databases]]
+binding = "DB"
+database_name = "wind-db"
+database_id = "9ab83a7b-3d86-4ce1-b0b1-da601544dea7"
